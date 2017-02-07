@@ -1,0 +1,36 @@
+body {
+    background-color: red
+}
+
+.all-the-wurdz {
+    font-family: cursive;
+    color: rgb(68, 65, 69);
+}
+
+.tapa-the-page {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    background-color: #da8d0b;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px 0 #000;
+}
+
+.project .image {
+    background-image: url('./presidential-button.jpg');
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
